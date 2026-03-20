@@ -28,6 +28,10 @@ h1 {
     margin-bottom: 1rem;
     font-size: 2rem;
 }
+h2 {
+    margin: 25px;
+    
+}
 
 .emoji {
     font-size: 4rem;
@@ -56,7 +60,7 @@ h1 {
     font-size: 1.4rem;
     color: #444;
     line-height: 1.6;
-    font-style: italic;
+    font-style: Italic;
 }
 
 button {
