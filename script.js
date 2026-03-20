@@ -8,10 +8,10 @@ const compliments = [
     "You are stronger than the challenges in front of you.",
     "Your creativity is a gift.",
     "You deserve all the good things coming your way.",
-    "You are enough, exactly as you are."
-    "You're beautiful just the way you are!"
-    "Your smile brighten ups the room."
-    "Your beauty goes deeper than the surface"
+    "You are enough, exactly as you are.",
+    "You're beautiful just the way you are!" , 
+    "Your smile brighten ups the room.", 
+    "Your beauty goes deeper than the surface" 
     
 ];
 
