@@ -17,11 +17,15 @@ const compliments = [
 
 function showCompliment() {
     const complimentElement = document.getElementById("compliment");
+    const complimentsTextareaElement = document.querySelector("textarea");
     const randomIndex = Math.floor(Math.random() * compliments.length);
 
     complimentElement.classList.remove("sparkle");
     void complimentElement.offsetWidth;
 
-    complimentElement.textContent = compliments[randomIndex];
+    complimentElement.textContent = complimentsTextareaElement
+        .value
+        .split('\n')
+        .concat(compliments)[randomIndex];
     complimentElement.classList.add("sparkle");
 }
