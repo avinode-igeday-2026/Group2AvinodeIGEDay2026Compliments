@@ -11,8 +11,8 @@ const compliments = [
     "You are enough, exactly as you are.",
     "You're beautiful just the way you are!" , 
     "Your smile brighten ups the room.", 
-    "Your beauty goes deeper than the surface" 
-    
+    "Your beauty goes deeper than the surface",
+    "You will find hope waiting for you in the dark.",
 ];
 
 function showCompliment() {
